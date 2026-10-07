@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>えにし｜イベント・お知らせ</title>
+<meta name="description" content="えにしで開催するお茶会、、マルシェ、リトリートなどのイベント・お知らせ。">
+<style>
+:root{--ink:#3f4039;--deep:#3e625e;--paper:#fff9ed;--cream:#f2e4c9;--gold:#c49b55;--leaf:#76866a;--sea:#7fa7a5;--line:#d6c39f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:"Yu Gothic",sans-serif;background:radial-gradient(rgba(110,83,49,.06) .8px,transparent .8px),var(--paper);background-size:10px 10px;line-height:1.8}.wrap{width:min(90%,920px);margin:auto}.narrow{width:min(88%,720px);margin:auto}h1,h2,h3{font-family:"Yu Mincho",serif;font-weight:500}.hero{padding:72px 0 82px;text-align:center;background:linear-gradient(135deg,#d9eee8,#f4e0cf 48%,#f1e6c8);border-bottom:1px solid var(--line)}.eyebrow{font-size:.78rem;letter-spacing:.22em;color:#8c704d}.hero h1{font-size:clamp(2.4rem,7vw,4.2rem);color:var(--deep);margin:8px 0 12px}.hero p{max-width:680px;margin:auto}.paw{letter-spacing:.32em;color:var(--gold);margin-top:16px}section{padding:70px 0}.chapter{text-align:center;margin-bottom:32px}.chapter span{display:inline-block;font-size:.72rem;letter-spacing:.16em;color:#8b704d;border-bottom:1px solid #b99b68;padding:0 14px 5px}.chapter:after{content:"❧";display:block;color:var(--leaf);margin-top:7px}.intro{background:#f5ead6}.intro-card{max-width:760px;margin:auto;background:#fffaf0;border:1px solid var(--line);padding:30px 32px;box-shadow:5px 7px 0 rgba(118,90,54,.07)}.intro-card strong{color:var(--deep);font-family:"Yu Mincho",serif}.upcoming{background:#eef2ea}.section-title{text-align:center;margin-bottom:32px}.section-title h2{font-size:clamp(1.8rem,5vw,2.6rem);color:var(--deep);margin:0 0 8px}.events{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.event{background:#fffaf0;border:1px solid #d4c19d;padding:26px;box-shadow:4px 6px 0 rgba(109,83,48,.07);position:relative}.event:before{content:"";position:absolute;top:-8px;left:calc(50% - 32px);width:64px;height:18px;background:rgba(202,174,122,.33);transform:rotate(2deg)}.tag{display:inline-block;font-size:.68rem;letter-spacing:.1em;color:#fff;background:#9b8466;padding:5px 10px;border-radius:999px}.event h3{font-size:1.35rem;color:#425f58;margin:8px 0}.meta{font-size:.88rem;color:#6f685e;border-top:1px dashed #cdb991;border-bottom:1px dashed #cdb991;padding:10px 0;margin:12px 0}.btn{display:inline-block;text-decoration:none;background:#668c87;color:#fff;padding:12px 20px;border-radius:4px;font-weight:700;box-shadow:3px 4px 0 #456b67}.btn.disabled{background:#aaa;box-shadow:none;pointer-events:none}.note{margin:38px auto 0;max-width:760px;background:#f9ecd5;border:1px dashed #b99663;padding:22px 24px}.note strong{font-family:"Yu Mincho",serif;color:#4f675f}.info{background:#f7ecda}.info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.info-card{background:#fffaf0;border:1px solid var(--line);padding:23px;text-align:center}.info-card .icon{font-size:2rem}.info-card h3{font-size:1.12rem;color:var(--deep);margin:6px 0}.past{background:#425f5c;color:#fff}.past h2{color:#fff}.past-item{max-width:760px;margin:auto;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);padding:20px}.cta{background:#f0e2c8;text-align:center}.cta h2{color:var(--deep);font-size:clamp(1.7rem,5vw,2.4rem)}footer{text-align:center;background:#e4d2b3;padding:32px 20px;color:#766851;font-size:.85rem}@media(max-width:720px){.events,.info-grid{grid-template-columns:1fr}section{padding:56px 0}.intro-card{padding:24px 22px}}
+
+.event-poster{width:100%;display:block;border-radius:3px;margin:0 0 18px;box-shadow:0 7px 18px rgba(74,55,34,.13)}
+.event.featured{grid-column:1/-1}
+.event.featured .event-inner{display:grid;grid-template-columns:minmax(260px,.85fr) 1.15fr;gap:28px;align-items:start}
+.event.featured .event-poster{margin:0}
+.tag.live{background:#b34b72}
+.tag.trip{background:#4e766d}
+.tag.marche{background:#9a6a3f}
+.event h4{font-family:"Yu Mincho",serif;color:#70583d;margin:15px 0 6px;font-size:1rem}
+.event ul{margin:8px 0 14px;padding-left:1.2em}
+.event li{margin:3px 0}
+@media(max-width:720px){.event.featured{grid-column:auto}.event.featured .event-inner{grid-template-columns:1fr}}
+
+</style>
+</head>
+<body><main>
+<header class="hero" id="top"><div class="wrap"><div class="eyebrow">ENISHI EVENT BOOK</div><h1>イベント・お知らせ</h1><p>お茶会、マルシェ、リトリート。<br>えにしから生まれる、今参加できるイベントをここに集めます。</p><div class="paw">●　✦　●</div></div></header>
+<section class="intro"><div class="narrow"><div class="chapter"><span>はじめに</span></div><div class="intro-card"><p><strong>「何か面白そう」が、出会いのはじまり。</strong></p><p>えにしでは、その時々でいろんなイベントを開催します。学びたい、遊びたい、ちょっと休みたい、誰かと話したい。そんな気持ちから、思いがけないご縁がつながることもあります。</p></div></div></section>
+<section class="upcoming"><div class="wrap"><div class="section-title"><div class="chapter"><span>開催予定</span></div><h2>これからのイベント</h2><p>詳細が決まったものから、ここに追加していきます。</p></div><div class="events">
+
+<!-- EVENT START：新しいイベントはこの article をコピーして増やせます -->
+
+<article class="event featured">
+  <div class="event-inner">
+    <div>
+      <img class="event-poster" src="event-teaparty-oct.png" alt="10月のちょっと不思議なお茶会 豊かさを巡らせる">
+    </div>
+    <div>
+      <span class="tag live">10月開催</span>
+      <h3>10月のちょっと不思議なお茶会<br>「豊かさを巡らせる」</h3>
+      <div class="meta">10/11（日）新月・10/26（月）満月｜13:00〜15:00頃｜えにし（高松市扇町）</div>
+      <p>今回のテーマは「豊かさを巡らせる」。塗香（ずこう）を使って、お財布に入れられる小さな御守りを作ります。</p>
+      <ul>
+        <li>参加費：6,600円（材料費込）</li>
+        <li>各回7名</li>
+        <li>塗香の御守りを3〜5個作れます</li>
+        <li>大切な人へのプレゼントにも◎</li>
+      </ul>
+      <a class="btn" href="https://lin.ee/zYNJWI5">参加についてLINEで聞く</a>
+    </div>
+  </div>
+</article>
+
+<article class="event">
+  <img class="event-poster" src="event-newme-marche.jpg" alt="NEW ME MARCHE Halloween Marche">
+  <span class="tag marche">10/31開催</span>
+  <h3>NEW ME MARCHE<br>Halloween Marche</h3>
+  <div class="meta">10月31日（土）10:00〜16:00｜TSUTAYA サンシャイン通り</div>
+  <p>テーマは「新しい自分に出会う」。整体、フットマッサージ、首の調整、ブレインリンパ、癒し、エネルギー鑑定、パワーストーンなど、いろんな体験が集まるマルシェです。</p>
+  <a class="btn" href="https://lin.ee/zYNJWI5">マルシェについて聞く</a>
+</article>
+
+<article class="event">
+  <span class="tag marche">高知</span>
+  <h3>高知マルシェ</h3>
+  <div class="meta">高知で開催するマルシェのお知らせ</div>
+  <p>高知でのマルシェにも参加します。開催情報・場所などの詳細はInstagramの投稿からご覧ください。</p>
+  <a class="btn" href="https://www.instagram.com/p/Dd5OaIXvekg/?utm_source=ig_web_copy_link&amp;stkn=MzRlODBiNWFlZA==" target="_blank" rel="noopener">Instagramで詳細を見る</a>
+</article>
+
+<article class="event featured">
+  <div class="event-inner">
+    <div>
+      <img class="event-poster" src="event-tokushima-retreat.png" alt="生きるを体感する 自然と五感のマインドリセットリトリート in 徳島">
+    </div>
+    <div>
+      <span class="tag trip">11/28〜29</span>
+      <h3>生きるを、体感する。<br>自然と五感のマインドリセットリトリート in 徳島</h3>
+      <div class="meta">2026年11月28日（土）〜29日（日）｜1泊2日｜徳島県海陽町｜定員6名・先着順</div>
+      <p>「私らしく生きたい」と思うけれど、そもそも私らしさって何だろう？ 自然の中で五感をひらき、自分の中から湧き出るものに気づく旅です。</p>
+      <h4>体験内容</h4>
+      <ul>
+        <li>轟の滝で「感じる」を体験</li>
+        <li>KANAさんが語る「虹の戦士」の物語</li>
+        <li>精麻の御守りづくり</li>
+        <li>草木染め・藍染め体験</li>
+      </ul>
+      <p><strong>参加費：33,000円（税込）</strong><br>宿泊・食事・体験料込み</p>
+      <a class="btn" href="https://lin.ee/zYNJWI5">リトリートについて聞く</a>
+    </div>
+  </div>
+</article>
+
+<!-- EVENT END -->
+</div><div class="note"><strong>イベントは、増えたり減ったりします。</strong><br>新しい企画が生まれたら追加。募集が終わったら「過去のイベント」へ。このページを見れば、今のえにしで何が起きているか分かるように育てていきます。</div></div></section>
+<section class="info"><div class="wrap"><div class="section-title"><div class="chapter"><span>イベントの楽しみ方</span></div><h2>こんなイベントがあります</h2></div><div class="info-grid"><div class="info-card"><div class="icon">🍵</div><h3>話す・つながる</h3><p>お茶会、交流会、小さな集まりなど。</p></div><div class="info-card"><div class="icon">🌿</div><h3>作る・感じる</h3><p>手しごと、ワークショップ、体験イベント。</p></div><div class="info-card"><div class="icon">🐉</div><h3>旅する・整える</h3><p>リトリート、龍の背に乗る旅、自然を感じる企画。</p></div></div></div></section>
+<section class="past"><div class="wrap"><div class="section-title"><div class="chapter"><span style="color:#eed5a2;border-color:#bba171">過去のイベント</span></div><h2>こんな時間を過ごしてきました</h2><p>開催後は、写真や短い感想をここに残していけます。</p></div><div class="past-item"><strong>過去イベントはこれから追加していきます。</strong><br>「次は参加してみたい」と思えるように、雰囲気が分かる写真や一言を残していく予定です。</div></div></section>
+<section class="cta"><div class="narrow"><h2>気になるイベントがある？</h2><p>「これ参加したい」「次はいつ？」など、気になることはLINEから気軽に聞いてください。</p><a class="btn" href="https://lin.ee/zYNJWI5">LINEで問い合わせる</a></div></section>
+</main><footer>えにし｜イベント・お知らせ<br>出会いも、気づきも、楽しい時間も。ここからまた、新しいご縁へ。</footer></body></html>
